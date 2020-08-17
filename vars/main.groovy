@@ -1,8 +1,8 @@
 import org.devops.*;
 
-def call(text) {
+def call() {
     try {
-        sh "echo ${text} "
+        sh "echo 1 "
     } catch(Exception e) {
         echo "does not work"
         echo "The build is failed"
