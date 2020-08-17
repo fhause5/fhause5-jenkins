@@ -2,6 +2,7 @@
 import org.devops.*;
 
 def call() {
-    Configuration.test()
+    println('Heee')
+   // Configuration.test()
 
 }
